@@ -1,0 +1,1068 @@
+fileFormatVersion: 2
+guid: 8c1f391d6dc4c6940acfb286dc79d9d6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -311717164623511277
+    second: biker1
+  - first:
+      213: -7349393597094439251
+    second: biker2
+  - first:
+      213: 7591243488954763279
+    second: biker3
+  - first:
+      213: -2314543512154946425
+    second: knife man1
+  - first:
+      213: 1573715589732773579
+    second: knife man2
+  - first:
+      213: -3734117561804976233
+    second: knife man3
+  - first:
+      213: 4230930762810902667
+    second: knife man4
+  - first:
+      213: 5765879278363004596
+    second: knife man5
+  - first:
+      213: 8610303900843614264
+    second: knife man6
+  - first:
+      213: -4109032026789080729
+    second: NES - Ninja Gaiden - Enemies_9
+  - first:
+      213: 7791498368356811254
+    second: fighter1
+  - first:
+      213: 365004086439958516
+    second: fighter2
+  - first:
+      213: -996770371315512002
+    second: fighter3
+  - first:
+      213: 4216974735675644574
+    second: dog1
+  - first:
+      213: -2388162638464866211
+    second: dog2
+  - first:
+      213: 7033822467078888669
+    second: bat1
+  - first:
+      213: 6897609532230775342
+    second: bat2
+  - first:
+      213: -227650228032810833
+    second: bat3
+  - first:
+      213: -1401014310681737017
+    second: bat4
+  - first:
+      213: 6034555405753092908
+    second: banshee1
+  - first:
+      213: 875424947794278052
+    second: banshee2
+  - first:
+      213: -3292542304959250292
+    second: banshee3
+  - first:
+      213: 2802370415740302758
+    second: banshee4
+  - first:
+      213: 6235186746760342080
+    second: NES - Ninja Gaiden - Enemies_23
+  - first:
+      213: 4290760970656146874
+    second: NES - Ninja Gaiden - Enemies_24
+  - first:
+      213: -1859010501339732027
+    second: NES - Ninja Gaiden - Enemies_25
+  - first:
+      213: 5367774093734724098
+    second: NES - Ninja Gaiden - Enemies_26
+  - first:
+      213: -163316390047375461
+    second: NES - Ninja Gaiden - Enemies_27
+  - first:
+      213: -1554531694048992791
+    second: NES - Ninja Gaiden - Enemies_28
+  - first:
+      213: 4191445894921062022
+    second: NES - Ninja Gaiden - Enemies_29
+  - first:
+      213: -6522009788775011521
+    second: NES - Ninja Gaiden - Enemies_30
+  - first:
+      213: 2119148823168872393
+    second: runner1
+  - first:
+      213: -5174803388088100402
+    second: runner2
+  - first:
+      213: -115456577312375327
+    second: gunner1
+  - first:
+      213: -5760660736032887031
+    second: gunner2
+  - first:
+      213: -2048563232286359025
+    second: gunner3
+  - first:
+      213: 5419591876734858229
+    second: gunner4
+  - first:
+      213: -8260629580282167175
+    second: swordman 1
+  - first:
+      213: 1126936504873749799
+    second: swordman 2
+  - first:
+      213: 3403664127565992101
+    second: swordman 3
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: biker1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 350
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311493ce3ee8cabf0800000000000000
+      internalID: -311717164623511277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: biker2
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 350
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6d7a25675b10a90800000000000000
+      internalID: -7349393597094439251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: biker3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 350
+        width: 17
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0845aaabb3895960800000000000000
+      internalID: 7591243488954763279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife man1
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 350
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784c1dc40f611efd0800000000000000
+      internalID: -2314543512154946425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife man2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 350
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce248fadf5f6d510800000000000000
+      internalID: 1573715589732773579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife man3
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 350
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f011b9cdfbd2cc0800000000000000
+      internalID: -3734117561804976233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife man4
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 350
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88cd92cc1947ba30800000000000000
+      internalID: 4230930762810902667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife man5
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 350
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4becc9c97a4840050800000000000000
+      internalID: 5765879278363004596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife man6
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 350
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830a1f947c1fd7770800000000000000
+      internalID: 8610303900843614264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ninja Gaiden - Enemies_9
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 366
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76198886429c9f6c0800000000000000
+      internalID: -4109032026789080729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter1
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 350
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f181f12c76f02c60800000000000000
+      internalID: 7791498368356811254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter2
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 350
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7d1d16841c01500800000000000000
+      internalID: 365004086439958516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighter3
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 350
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3dca1fd0a2ca22f0800000000000000
+      internalID: -996770371315512002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog1
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 350
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a5ebafd24b58a30800000000000000
+      internalID: 4216974735675644574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog2
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 350
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58217cbbba8bded0800000000000000
+      internalID: -2388162638464866211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat1
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 350
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc166b54482d9160800000000000000
+      internalID: 7033822467078888669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat2
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 350
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22b6ff035b39bf50800000000000000
+      internalID: 6897609532230775342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat3
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 350
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa05111e25937dcf0800000000000000
+      internalID: -227650228032810833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat4
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 350
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8839648e89e8ce0800000000000000
+      internalID: -1401014310681737017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banshee1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 287
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b83594b2c0fb350800000000000000
+      internalID: 6034555405753092908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banshee2
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 287
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6fac01a52262c00800000000000000
+      internalID: 875424947794278052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banshee3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 288
+        width: 16
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8045f0e73a8e42d0800000000000000
+      internalID: -3292542304959250292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banshee4
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 287
+        width: 16
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5b347ab0504e620800000000000000
+      internalID: 2802370415740302758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ninja Gaiden - Enemies_23
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 303
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04aafdc8f45d78650800000000000000
+      internalID: 6235186746760342080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ninja Gaiden - Enemies_24
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 303
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5e1109e58db8b30800000000000000
+      internalID: 4290760970656146874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ninja Gaiden - Enemies_25
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 286
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7ace96cc77336e0800000000000000
+      internalID: -1859010501339732027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ninja Gaiden - Enemies_26
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 286
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2024a9b391a2e7a40800000000000000
+      internalID: 5367774093734724098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ninja Gaiden - Enemies_27
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 303
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f1a39cb98cbbdf0800000000000000
+      internalID: -163316390047375461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ninja Gaiden - Enemies_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 303
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1af1819a13d6ae0800000000000000
+      internalID: -1554531694048992791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ninja Gaiden - Enemies_29
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 303
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6860a0e85d10b2a30800000000000000
+      internalID: 4191445894921062022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ninja Gaiden - Enemies_30
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 303
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3be176f6aa2d75a0800000000000000
+      internalID: -6522009788775011521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner1
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 287
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cfea2f70aab86d10800000000000000
+      internalID: 2119148823168872393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner2
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 287
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9558e5cb76f28b0800000000000000
+      internalID: -5174803388088100402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunner1
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 287
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed305acad0d56ef0800000000000000
+      internalID: -115456577312375327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunner2
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 287
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f2835f4950e00b0800000000000000
+      internalID: -5760660736032887031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunner3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 287
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0245af089a0293e0800000000000000
+      internalID: -2048563232286359025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunner4
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 287
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3bf500912463b40800000000000000
+      internalID: 5419591876734858229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swordman 1
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 287
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9708236d9295c5d80800000000000000
+      internalID: -8260629580282167175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swordman 2
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 288
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d8b69c7cea3af00800000000000000
+      internalID: 1126936504873749799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swordman 3
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 287
+        width: 17
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a09f4a9d7e3c3f20800000000000000
+      internalID: 3403664127565992101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
