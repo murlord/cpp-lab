@@ -15,11 +15,11 @@ E:/github/cpp-lab
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54455
+54737
 Successfully changed project path to: E:/github/cpp-lab
 E:/github/cpp-lab
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 51.88 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 37.19 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.3f1 (76626098c1c4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
@@ -35,103 +35,65 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56856
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56500
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002098 seconds.
+Registered in 0.001737 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 61.46 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 58.68 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.308 seconds
+- Completed reload, in  1.168 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000768 seconds.
+Registered in 0.000886 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 46.78 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 39.95 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.088 seconds
+- Completed reload, in  1.003 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.7 MB.
-System memory in use after: 84.8 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2254.
-Total: 1.740700 ms (FindLiveObjects: 0.219000 ms CreateObjectMapping: 0.061500 ms MarkObjects: 1.388600 ms  DeleteObjects: 0.069900 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Level/NinjaGaiden-ActI-Scenes1&2.png
-  artifactKey: Guid(8d16bbb712f468c41870fb98d2c59914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level/NinjaGaiden-ActI-Scenes1&2.png using Guid(8d16bbb712f468c41870fb98d2c59914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a2f73fb6cb1b54b9f842ef0fb03682') in 0.204642 seconds
-  Import took 0.208770 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.961000 seconds.
-  path: Assets/Level/NinjaGaiden-ActI-Scenes1&2.png
-  artifactKey: Guid(8d16bbb712f468c41870fb98d2c59914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level/NinjaGaiden-ActI-Scenes1&2.png using Guid(8d16bbb712f468c41870fb98d2c59914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5877ecd39d590537afc315146b6025c6') in 0.064304 seconds
-  Import took 0.072151 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000785 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.932 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1798 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.3 MB.
-System memory in use after: 87.5 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2269.
-Total: 1.568300 ms (FindLiveObjects: 0.145700 ms CreateObjectMapping: 0.054100 ms MarkObjects: 1.354300 ms  DeleteObjects: 0.013500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000633 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
 Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.850 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1798 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.4 MB.
-System memory in use after: 87.5 MB.
+Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.8 MB.
+System memory in use after: 84.9 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2272.
-Total: 1.678300 ms (FindLiveObjects: 0.180000 ms CreateObjectMapping: 0.073500 ms MarkObjects: 1.387000 ms  DeleteObjects: 0.036500 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2254.
+Total: 2.018300 ms (FindLiveObjects: 0.220100 ms CreateObjectMapping: 0.075500 ms MarkObjects: 1.662100 ms  DeleteObjects: 0.059000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/items/NES - Ninja Gaiden - Items & Torches.png
+  artifactKey: Guid(aec2993074053d749a69697fa4cf3e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/items/NES - Ninja Gaiden - Items & Torches.png using Guid(aec2993074053d749a69697fa4cf3e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2a14ccdb486a7e96f1032e96308751') in 0.099481 seconds
+  Import took 0.108862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.917827 seconds.
+  path: Assets/items/NES - Ninja Gaiden - Items & Torches.png
+  artifactKey: Guid(aec2993074053d749a69697fa4cf3e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/items/NES - Ninja Gaiden - Items & Torches.png using Guid(aec2993074053d749a69697fa4cf3e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3e3d37235d4040643a24162b7cc258') in 0.060326 seconds
+  Import took 0.070099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.135725 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efcc86445803b4827238f6f97679cb1b') in 0.006104 seconds
+  Import took 0.013706 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
