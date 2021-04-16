@@ -1,7 +1,19 @@
 fileFormatVersion: 2
 guid: 8d16bbb712f468c41870fb98d2c59914
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -1031822084316575801
+    second: NinjaGaiden-ActI-Scenes1&2_0
+  - first:
+      213: 6839771112284436367
+    second: boss room
+  - first:
+      213: -8018139907135124905
+    second: ninja
+  - first:
+      213: 3675535350894132853
+    second: main level
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +53,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -89,7 +101,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: NinjaGaiden-ActI-Scenes1&2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 3550
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c748e8f74b3ea1f0800000000000000
+      internalID: -1031822084316575801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss room
+      rect:
+        serializedVersion: 2
+        x: 3070
+        y: 0
+        width: 258
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8731b4869fbbee50800000000000000
+      internalID: 6839771112284436367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninja
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 0
+        width: 222
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ac3d38c38d9b090800000000000000
+      internalID: -8018139907135124905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: main level
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 3072
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e7f658def120330800000000000000
+      internalID: 3675535350894132853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
