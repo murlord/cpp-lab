@@ -67,10 +67,10 @@ TextureImporter:
     second: duckingslash3
   - first:
       213: 1325353661255431457
-    second: subweapon1
+    second: ninjashoot
   - first:
       213: 4673388892435396376
-    second: subweapon2
+    second: ninjashoot2
   - first:
       213: -3688361282884337682
     second: jumpslash1
@@ -104,6 +104,18 @@ TextureImporter:
   - first:
       213: 1283142486390905805
     second: noSword ducking3
+  - first:
+      213: 515997143775821366
+    second: bigdart1
+  - first:
+      213: 5175725887725253352
+    second: bigdart2
+  - first:
+      213: 4376760005343178545
+    second: dart1
+  - first:
+      213: -7564127886811665853
+    second: dart2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -200,8 +212,8 @@ TextureImporter:
         y: 225
         width: 17
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -221,8 +233,8 @@ TextureImporter:
         y: 225
         width: 24
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -242,8 +254,8 @@ TextureImporter:
         y: 225
         width: 24
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -634,7 +646,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: subweapon1
+      name: ninjashoot
       rect:
         serializedVersion: 2
         x: 196
@@ -655,7 +667,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: subweapon2
+      name: ninjashoot2
       rect:
         serializedVersion: 2
         x: 216
@@ -902,6 +914,90 @@ TextureImporter:
       bones: []
       spriteID: dcb9a810b43aec110800000000000000
       internalID: 1283142486390905805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigdart1
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ebfdb1ba0392700800000000000000
+      internalID: 515997143775821366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigdart2
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e238a0d54fd3d740800000000000000
+      internalID: 5175725887725253352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dart1
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 115
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13fed9929006dbc30800000000000000
+      internalID: 4376760005343178545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dart2
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 115
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ae6fe63c1d60790800000000000000
+      internalID: -7564127886811665853
       vertices: []
       indices: 
       edges: []
