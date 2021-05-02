@@ -45,11 +45,14 @@ public class PlayerMovement : MonoBehaviour
         float horizontalInput = Input.GetAxisRaw("Horizontal");
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, isGroundLayer);
 
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && isGrounded)
         {
             rb.velocity = Vector2.zero;
             rb.AddForce(Vector2.up * jumpForce);
+            isGrounded = false;
         }
+        
+     
 
         Vector2 moveDirection = new Vector2(horizontalInput * speed, rb.velocity.y);
         rb.velocity = moveDirection;
