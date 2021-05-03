@@ -47,7 +47,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
-            rb.velocity = Vector2.zero;
+            rb.transform.position = Vector2.zero;
             rb.AddForce(Vector2.up * jumpForce);
             isGrounded = false;
         }
