@@ -44,8 +44,8 @@ public class PlayerFire : MonoBehaviour
     {
         if (ninjaSprite.flipX)
         {
-            Projectile projectileInstance = Instantiate(projectilePrefab, transform.position, spawnPointLeft.rotation);
-            projectileInstance.speed = projectileSpeed;
+            Projectile projectileInstance = Instantiate(projectilePrefab, spawnPointLeft.position, spawnPointLeft.rotation);
+            projectileInstance.speed = -projectileSpeed;
         }
         else
         {

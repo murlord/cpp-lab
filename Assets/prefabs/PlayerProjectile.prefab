@@ -14,8 +14,6 @@ GameObject:
   - component: {fileID: 8122766229252229472}
   - component: {fileID: 3497196880877374672}
   - component: {fileID: 9221810462444911125}
-  - component: {fileID: 2935430575208254333}
-  - component: {fileID: -6583043892700167084}
   m_Layer: 0
   m_Name: PlayerProjectile
   m_TagString: Untagged
@@ -99,7 +97,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.04, y: 0}
@@ -140,7 +138,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 4
   lifetime: 0
-  rb: {fileID: 8122766229252229472}
 --- !u!95 &9221810462444911125
 Animator:
   serializedVersion: 3
@@ -160,39 +157,3 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &2935430575208254333
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8273402765211208295}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ca817e9fe9f01d4791d7d6326b15d63, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0
-  jumpForce: 0
-  isGrounded: 0
-  isGroundLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  groundCheck: {fileID: 0}
-  groundCheckRadius: 0
---- !u!114 &-6583043892700167084
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8273402765211208295}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d666e66c0e653f041b75150e47803a8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPointLeft: {fileID: 0}
-  spawnPointRight: {fileID: 0}
-  projectileSpeed: 0
-  projectilePrefab: {fileID: 0}

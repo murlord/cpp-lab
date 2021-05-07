@@ -7,7 +7,7 @@ public class Projectile : MonoBehaviour
 {
     public float speed = 5f;
     public float lifetime;
-    public Rigidbody2D rb;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -21,5 +21,5 @@ public class Projectile : MonoBehaviour
         Destroy(gameObject, lifetime);
         
     }
-
+   
 }

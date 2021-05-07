@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 192360522659560309}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SpawnLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39,7 +39,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4758718707349049131}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75,7 +75,7 @@ GameObject:
   - component: {fileID: 4758718707979464018}
   - component: {fileID: 4758718707979464028}
   - component: {fileID: 4758718707979464019}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ninjaSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -230,7 +230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  jumpForce: 150
+  jumpForce: 10
   isGrounded: 0
   isGroundLayer:
     serializedVersion: 2
@@ -249,10 +249,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d666e66c0e653f041b75150e47803a8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPointLeft: {fileID: 0}
-  spawnPointRight: {fileID: 0}
+  spawnPointLeft: {fileID: 192360522659560309}
+  spawnPointRight: {fileID: 6410096192103956295}
   projectileSpeed: 0
-  projectilePrefab: {fileID: 0}
+  projectilePrefab: {fileID: 3497196880877374672, guid: 6052c1e29da90e64f8f7e8038f25d0f3,
+    type: 3}
 --- !u!1 &5451009291413091337
 GameObject:
   m_ObjectHideFlags: 0
@@ -262,7 +263,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6410096192103956295}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SpawnRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
