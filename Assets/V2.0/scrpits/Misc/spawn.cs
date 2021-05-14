@@ -8,7 +8,7 @@ public class spawn : MonoBehaviour
     public Transform[] spawnPoints;
     public GameObject[] pickupsPrefabs;
 
-    private float spawnDelay = 2;
+    private float spawnDelay = 1;
     private float nextSpawnTime;
 
 
