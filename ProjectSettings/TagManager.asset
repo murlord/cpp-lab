@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - player
+  - powerup
+  - collectable
+  - Pickup
   layers:
   - Default
   - TransparentFX

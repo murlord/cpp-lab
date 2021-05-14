@@ -20,13 +20,22 @@ public class playercontroller : MonoBehaviour
     public int extraJumpsValue;
     private Animator anim;
 
+    private bool facingRight = true;
+
+    
+
+    public int score = 0;
+    public int lives = 5;
 
 
     void Start()
 {
+        
+
         anim = GetComponent<Animator>();
         extraJumps = extraJumpsValue;
-        rb = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();        
+
 
 }
 
@@ -39,15 +48,14 @@ void FixedUpdate()
         moveInput = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
 
-        if (moveInput < 0)
+        if(moveInput > 0 && !facingRight)
         {
-            transform.eulerAngles = new Vector3(0, 180, 0);
+            Flip();
         }
-        else if (moveInput > 0)
+        else if(moveInput < 0 && facingRight)
         {
-            transform.eulerAngles = new Vector3(0, 0, 0);
+            Flip();
         }
-
 
 
 
@@ -55,7 +63,11 @@ void FixedUpdate()
 
 }
 
-
+    private void Flip()
+    {
+        facingRight = !facingRight;
+        transform.Rotate(0f, 180f, 0f);
+    }
 
 
 
@@ -101,16 +113,15 @@ void FixedUpdate()
             anim.SetTrigger("jump");
         }
 
-
-
-
+       
 
     }
 
 
+ 
 
 
-   
+
 
 
 

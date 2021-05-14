@@ -31,16 +31,16 @@ TextureImporter:
     second: ninja fire2
   - first:
       213: -65927593057676163
-    second: ninjia sprite4_9
+    second: dart1
   - first:
       213: 4592447025100356380
-    second: ninjia sprite4_10
+    second: dart2
   - first:
       213: -6299715102779708136
-    second: ninjia sprite4_11
+    second: big dart1
   - first:
       213: 89796939705673367
-    second: ninjia sprite4_12
+    second: bid dart2
   - first:
       213: -4671544097147841996
     second: ninja jump1
@@ -331,7 +331,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ninjia sprite4_9
+      name: dart1
       rect:
         serializedVersion: 2
         x: 206
@@ -339,7 +339,7 @@ TextureImporter:
         width: 8
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -352,7 +352,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ninjia sprite4_10
+      name: dart2
       rect:
         serializedVersion: 2
         x: 215
@@ -360,7 +360,7 @@ TextureImporter:
         width: 8
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -373,7 +373,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ninjia sprite4_11
+      name: big dart1
       rect:
         serializedVersion: 2
         x: 224
@@ -381,7 +381,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -394,7 +394,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ninjia sprite4_12
+      name: bid dart2
       rect:
         serializedVersion: 2
         x: 241
@@ -402,7 +402,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
