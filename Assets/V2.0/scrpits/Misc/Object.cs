@@ -22,7 +22,7 @@ public class Object : MonoBehaviour
     {
         if (collision.gameObject.tag == "player")
         {
-            Debug.Log("win");
+            Debug.Log("You Win!");
         }
     
     }
