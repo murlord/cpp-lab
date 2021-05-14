@@ -11,9 +11,12 @@ GameObject:
   - component: {fileID: 4177708748093647077}
   - component: {fileID: 4177708748093647082}
   - component: {fileID: 4177708748093647083}
+  - component: {fileID: -5593556886084049101}
+  - component: {fileID: -3207483884820559769}
+  - component: {fileID: -1464735874402693205}
   m_Layer: 0
   m_Name: powerup4
-  m_TagString: powerup
+  m_TagString: powerup jump
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -110,3 +113,42 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.16}
   m_EdgeRadius: 0
+--- !u!114 &-5593556886084049101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4177708748093647080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a96934a5eda3f549b7450434de6d425, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 
+  currentCollectible: 0
+--- !u!114 &-3207483884820559769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4177708748093647080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d9bd5763af035e49b68fb892d380858, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectableValue: 1
+--- !u!114 &-1464735874402693205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4177708748093647080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 633afaa6470691f4a9b98574197ca865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

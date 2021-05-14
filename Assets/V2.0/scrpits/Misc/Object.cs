@@ -2,20 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class pickup : MonoBehaviour
+public class Object : MonoBehaviour
 {
-    public string ID;
-    public enum CollectibleType
-    { 
-        Powerup,
-        Collectables,
-        Lives
-    
-    }
-
-    public CollectibleType currentCollectible;
-
-
     // Start is called before the first frame update
     void Start()
     {
@@ -29,17 +17,14 @@ public class pickup : MonoBehaviour
     }
 
 
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "player")
         {
-            Destroy(gameObject);
+            Debug.Log("win");
         }
-
-       
-
+    
     }
-
-
 
 }

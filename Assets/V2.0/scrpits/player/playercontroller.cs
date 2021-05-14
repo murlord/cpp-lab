@@ -118,14 +118,39 @@ void FixedUpdate()
     }
 
 
- 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "powerup speed")
+        {
+            speed = 4f;
+            GetComponent<SpriteRenderer>().color = Color.red;
+            StartCoroutine(ResetPower());
+       }
+
+
+        if (collision.tag == "powerup jump")
+        {
+            jumpForce = 4f;
+            GetComponent<SpriteRenderer>().color = Color.blue;
+            StartCoroutine(ResetPower());
 
 
 
+        }
+    }
 
 
+    private IEnumerator ResetPower()
+    {
+        yield return new WaitForSeconds(5);
+        speed = 2f;
+        jumpForce = 3f;
+        GetComponent<SpriteRenderer>().color = Color.white;
+
+    }
 
 
+    
 
 
 

@@ -8,6 +8,8 @@ TagManager:
   - powerup
   - collectable
   - Pickup
+  - powerup speed
+  - powerup jump
   layers:
   - Default
   - TransparentFX

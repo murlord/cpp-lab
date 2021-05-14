@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 6956632357728717884}
   - component: {fileID: 6956632357728717885}
   - component: {fileID: 6956632357728717826}
+  - component: {fileID: 7632476746412302038}
+  - component: {fileID: -3674843132843671231}
   m_Layer: 0
   m_Name: powerup1
   m_TagString: Pickup
@@ -123,4 +125,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a96934a5eda3f549b7450434de6d425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ID: 
   currentCollectible: 0
+--- !u!114 &7632476746412302038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6956632357728717886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d9bd5763af035e49b68fb892d380858, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectableValue: 1
+--- !u!114 &-3674843132843671231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6956632357728717886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 633afaa6470691f4a9b98574197ca865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
