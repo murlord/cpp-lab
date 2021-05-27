@@ -7,6 +7,7 @@ public class bullet : MonoBehaviour
     public float speed = 20f;
     public Rigidbody2D rb;
     public float lifetime;
+    public int damage = 40;
     
     void Start()
     {
@@ -17,11 +18,17 @@ public class bullet : MonoBehaviour
             lifetime = 2.0f;
         }
 
-        Destroy(gameObject, lifetime);
-
         
-
     }
 
+    void OntriggerEnter2D(Collider2D hitInfo)
+    {
+        turretScript enemy = hitInfo.GetComponent<turretScript>();
+        if (enemy != null)
+        {
+            enemy.TakeDamage(damage);
+        }
+        Destroy(gameObject, lifetime);
+    }
     
 }

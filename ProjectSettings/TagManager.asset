@@ -10,6 +10,8 @@ TagManager:
   - Pickup
   - powerup speed
   - powerup jump
+  - turret
+  - Enemy
   layers:
   - Default
   - TransparentFX

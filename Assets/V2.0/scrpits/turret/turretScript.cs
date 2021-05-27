@@ -17,6 +17,9 @@ public class turretScript : MonoBehaviour
 
     public Transform ShootPoint;
     public float Force;
+
+    public int health = 100;
+    public GameObject deathEffect;
     // Start is called before the first frame update
     void Start()
     {
@@ -69,5 +72,19 @@ public class turretScript : MonoBehaviour
     void OnDrawGizmosSelected()
     {
         Gizmos.DrawWireSphere(transform.position, Range);
+    }
+    
+    public void TakeDamage(int damage)
+    {
+        health -= damage;
+        if (health <= 0)
+        {
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        Destroy(gameObject);
     }
 }
