@@ -19,6 +19,7 @@ public class bulletScript : MonoBehaviour
     {
 
         Destroy(this.gameObject);
+        
     }
 
 }

@@ -21,14 +21,15 @@ public class bullet : MonoBehaviour
         
     }
 
-    void OntriggerEnter2D(Collider2D hitInfo)
+    void OnTriggerEnter2D(Collider2D hitInfo)
     {
         turretScript enemy = hitInfo.GetComponent<turretScript>();
         if (enemy != null)
         {
             enemy.TakeDamage(damage);
+            Destroy(gameObject);
         }
-        Destroy(gameObject, lifetime);
+       
     }
     
 }
