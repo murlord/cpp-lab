@@ -6,8 +6,10 @@ public class spawn : MonoBehaviour
 {
 
     public Transform[] spawnPoints;
+    public GameObject[] spawnedItems;
     public GameObject[] pickupsPrefabs;
 
+    private bool CanSpawn = true;
     private float spawnDelay = 1;
     private float nextSpawnTime;
 
@@ -15,17 +17,16 @@ public class spawn : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        spawnedItems = new GameObject[spawnPoints.Length];
     }
 
     // Update is called once per frame
     void Update()
-    {
+    {   
         if (ShouldSpawn())
         {
             Spawn();
         }
-
     }
 
     private void Spawn()
@@ -34,7 +35,11 @@ public class spawn : MonoBehaviour
         int randSpawPoint = Random.Range(0, spawnPoints.Length);
 
         nextSpawnTime = Time.time + spawnDelay;
-        Instantiate(pickupsPrefabs[randItem], spawnPoints[randSpawPoint].position, transform.rotation);
+
+        if (!spawnedItems[randSpawPoint])
+        {
+            spawnedItems[randSpawPoint] = Instantiate(pickupsPrefabs[randItem], spawnPoints[randSpawPoint].position, transform.rotation);
+        }
     }
 
     private bool ShouldSpawn()

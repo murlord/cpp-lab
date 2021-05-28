@@ -1497,6 +1497,7 @@ MonoBehaviour:
   - {fileID: 1629513151}
   - {fileID: 1593296970}
   - {fileID: 1617012355}
+  spawnedItems: []
   pickupsPrefabs:
   - {fileID: 1188144871067947629, guid: 466bb9cc5d4c5a740bdd44bff32ad841, type: 3}
   - {fileID: 3837078713180523721, guid: 494249a6f7dcab94d9d200e677e71ae4, type: 3}
@@ -2158,6 +2159,7 @@ GameObject:
   - component: {fileID: 1574953718}
   - component: {fileID: 1574953720}
   - component: {fileID: 1574953721}
+  - component: {fileID: 1574953722}
   m_Layer: 0
   m_Name: biker1
   m_TagString: Enemy
@@ -2268,6 +2270,32 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!61 &1574953722
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574953717}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.155}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 0.23, y: 0.31}
+    newSize: {x: 0.23, y: 0.31}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.23, y: 0.31}
+  m_EdgeRadius: 0
 --- !u!1 &1593296969
 GameObject:
   m_ObjectHideFlags: 0
