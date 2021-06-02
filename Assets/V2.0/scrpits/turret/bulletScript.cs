@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class bulletScript : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public int turretdamage = 1;
+
     void Start()
     {
         
@@ -17,8 +18,8 @@ public class bulletScript : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D Col)
     {
-
-        Destroy(this.gameObject);
+        
+            Destroy(this.gameObject);
         
     }
 

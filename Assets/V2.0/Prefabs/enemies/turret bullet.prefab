@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -8104557728032343895}
   m_Layer: 0
   m_Name: turret bullet
-  m_TagString: enemy bullet
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -135,3 +135,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f18bf7ff21bd93444a3d7b79c73cd144, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turretdamage: 100

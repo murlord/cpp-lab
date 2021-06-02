@@ -46,6 +46,8 @@ GameObject:
   - component: {fileID: 4089155110375247301}
   - component: {fileID: 4089155110375247303}
   - component: {fileID: 4089155110375247302}
+  - component: {fileID: 239452845}
+  - component: {fileID: 239452846}
   m_Layer: 0
   m_Name: player
   m_TagString: player
@@ -143,7 +145,7 @@ MonoBehaviour:
     m_Bits: 8
   extraJumpsValue: 1
   score: 0
-  lives: 5
+  health: 3
 --- !u!50 &4089155110375247299
 Rigidbody2D:
   serializedVersion: 4
@@ -240,6 +242,31 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &239452845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4089155110375247295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16d7eb3b7362a3c4fb7219ca65662bb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &239452846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4089155110375247295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55a0e0d02b0a6154497763e817200fb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
 --- !u!1 &4089155110717230081
 GameObject:
   m_ObjectHideFlags: 0

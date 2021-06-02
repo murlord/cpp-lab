@@ -25,7 +25,8 @@ public class playercontroller : MonoBehaviour
     
 
     public int score = 0;
-    public int lives = 5;
+    public int health = 5;
+
 
 
     void Start()
@@ -133,10 +134,10 @@ void FixedUpdate()
             jumpForce = 4f;
             GetComponent<SpriteRenderer>().color = Color.blue;
             StartCoroutine(ResetPower());
+       }
+        
+       
 
-
-
-        }
     }
 
 
@@ -150,11 +151,20 @@ void FixedUpdate()
     }
 
 
-    
 
+    public void TakeDamage(int turretdamage)
+    {
+        health -= turretdamage;
+        if (health <= 0)
+        {
+            Die();
+        }
+    }
 
-
-
+    void Die()
+    {
+        Destroy(gameObject);
+    }
 
 
 
