@@ -4,13 +4,16 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+
+
 public class Health : MonoBehaviour
 {
+    private SceneTransitions sceneTransitions;
     public int health;
     // Start is called before the first frame update
     void Start()
     {
-        
+        sceneTransitions = FindObjectOfType<SceneTransitions>();
     }
 
     // Update is called once per frame
@@ -18,9 +21,9 @@ public class Health : MonoBehaviour
     {
         if (health <= 0)
         {
-            if (SceneManager.GetActiveScene().name == "SampleScene")
-                SceneManager.LoadScene("Endscreen");
-            
+            sceneTransitions.LoadScene("Dead");
+                
+
 
         }
     }

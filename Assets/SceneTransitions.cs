@@ -12,11 +12,7 @@ public class SceneTransitions : MonoBehaviour
         transitionAnim = GetComponent<Animator>();
 
     }
-    public void LoadScene()
-    { 
-    
-    }
-
+ 
     public void LoadScene(string sceneName)
     {
         StartCoroutine(Transition(sceneName));
