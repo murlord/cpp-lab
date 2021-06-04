@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class playercontroller : MonoBehaviour
 {
@@ -26,7 +27,9 @@ public class playercontroller : MonoBehaviour
 
     public int score = 0;
     public int health = 5;
-
+    public Image[] hearts;
+    public Sprite fullHeart;
+    public Sprite emptyHeart;
 
 
     void Start()
@@ -155,6 +158,7 @@ void FixedUpdate()
     public void TakeDamage(int turretdamage)
     {
         health -= turretdamage;
+        UpdateHealthUI(health);
         if (health <= 0)
         {
             Die();
@@ -166,7 +170,21 @@ void FixedUpdate()
         Destroy(gameObject);
     }
 
-
+    void UpdateHealthUI(int currentHealth)
+    {
+        for (int i = 0; i < hearts.Length; i++)
+        {
+            if (i < currentHealth)
+            {
+                hearts[i].sprite = fullHeart;
+            }
+            else
+            {
+                hearts[i].sprite = emptyHeart;
+            }
+        }
+    
+    }
 
 
 
