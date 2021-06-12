@@ -9,7 +9,7 @@ public class PlayerFire : MonoBehaviour
     public GameObject bulletPrefab;
 
     Animator anim;
-
+    public AudioSource attackSound;
 
 
     // Start is called before the first frame update
@@ -27,6 +27,8 @@ public class PlayerFire : MonoBehaviour
             {
                 anim.SetBool("isShooting", true);
                 Shoot();
+
+                attackSound.Play();
             }
         }
 

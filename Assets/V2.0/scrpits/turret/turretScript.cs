@@ -20,6 +20,10 @@ public class turretScript : MonoBehaviour
 
     public int health = 100;
     public GameObject deathEffect;
+
+
+
+    public AudioSource turretExp;
     // Start is called before the first frame update
     void Start()
     {
@@ -86,5 +90,6 @@ public class turretScript : MonoBehaviour
     void Die()
     {
         Destroy(gameObject);
+        turretExp.Play();
     }
 }

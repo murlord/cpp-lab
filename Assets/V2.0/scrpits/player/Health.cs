@@ -13,6 +13,8 @@ public class Health : MonoBehaviour
     public Image[] hearts;
     public Sprite fullHeart;
     public Sprite emptyHeart;
+
+  
     // Start is called before the first frame update
     void Start()
     {
@@ -43,8 +45,16 @@ public class Health : MonoBehaviour
             else
             {
                 hearts[i].sprite = emptyHeart;
+                
             }
+
         }
 
     }
+
+
+
+
+
+
 }

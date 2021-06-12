@@ -31,7 +31,7 @@ public class playercontroller : MonoBehaviour
     public Sprite fullHeart;
     public Sprite emptyHeart;
 
-
+    
     void Start()
 {
         

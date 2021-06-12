@@ -6,6 +6,7 @@ public class bulletScript : MonoBehaviour
 {
     public int turretdamage = 1;
 
+
     void Start()
     {
         
