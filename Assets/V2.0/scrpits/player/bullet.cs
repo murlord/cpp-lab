@@ -7,8 +7,8 @@ public class bullet : MonoBehaviour
     public float speed = 20f;
     public Rigidbody2D rb;
     public float lifetime;
-    public int damage = 40;
-    
+    public int damage;
+
     void Start()
     {
         rb.velocity = transform.right * speed;
@@ -18,18 +18,26 @@ public class bullet : MonoBehaviour
             lifetime = 2.0f;
         }
 
-        
+
     }
 
-    void OnTriggerEnter2D(Collider2D hitInfo)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        turretScript enemy = hitInfo.GetComponent<turretScript>();
+        turretScript enemy = collision.GetComponent<turretScript>();
         if (enemy != null)
         {
             enemy.TakeDamage(damage);
             Destroy(gameObject);
+
         }
-       
+        if (collision.tag == "MeleeEnemy")
+        {
+            collision.GetComponent<Enemy>().TakeDamage(damage);
+            Destroy(gameObject);
+        }
     }
-    
 }
+
+    
+
+   

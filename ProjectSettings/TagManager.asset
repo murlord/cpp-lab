@@ -12,6 +12,7 @@ TagManager:
   - powerup jump
   - turret
   - Enemy
+  - MeleeEnemy
   layers:
   - Default
   - TransparentFX
