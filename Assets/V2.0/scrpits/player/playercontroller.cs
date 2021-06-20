@@ -31,7 +31,8 @@ public class playercontroller : MonoBehaviour
     public Sprite fullHeart;
     public Sprite emptyHeart;
 
-    
+    public AudioSource MoveSound;
+    public AudioSource JumpSound;
     void Start()
 {
         
@@ -105,16 +106,19 @@ void FixedUpdate()
         if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow))
         {
             anim.SetBool("Running", true);
+            MoveSound.Play();
         }
         else
         {
             anim.SetBool("Running", false);
+            MoveSound.Play();
         }
 
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
             anim.SetTrigger("jump");
+            JumpSound.Play();
         }
 
        
@@ -155,9 +159,9 @@ void FixedUpdate()
 
 
 
-    public void TakeDamage(int turretdamage)
+    public void TakeDamage(int amount)
     {
-        health -= turretdamage;
+        health -= amount;
         UpdateHealthUI(health);
         if (health <= 0)
         {
@@ -167,7 +171,7 @@ void FixedUpdate()
 
     void Die()
     {
-        Destroy(gameObject);
+        Destroy(this.gameObject);
     }
 
     void UpdateHealthUI(int currentHealth)

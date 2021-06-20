@@ -30,11 +30,7 @@ public class bullet : MonoBehaviour
             Destroy(gameObject);
 
         }
-        if (collision.tag == "MeleeEnemy")
-        {
-            collision.GetComponent<Enemy>().TakeDamage(damage);
-            Destroy(gameObject);
-        }
+
     }
 }
 
